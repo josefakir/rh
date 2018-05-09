@@ -1,0 +1,36 @@
+/* Your app styles here */
+.md .navbar{background: #000 !important}
+img#logo {
+        max-height: 100%;
+    width: 75px;
+}
+div[data-name|="home"]{
+	background: url(../img/LOrealhaircolour.jpg)  !important;
+	background-size: cover !important;
+	background-position: top center
+}
+i.icon.f7-icons {
+    display: none;
+}
+.overlayb{background: #00000085; position: absolute; top: 0; left: 0; width: 100%; height: 100%}
+a.button.login-screen-open.boton_login {
+        background: #fff;
+    display: block;
+    width: 150px;
+    margin: 50px auto;
+    top: 50%;
+    height: 40px;
+    margin-top: -20px;
+    color: #000;
+}
+.logo_login{    width: 100px;
+    margin:30px auto;
+    display: block;}
+
+
+.boton_login2 {
+    background: #000;
+    color: #fff !important;
+    width: 150px;
+    margin: 0 auto;
+}
