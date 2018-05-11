@@ -20,6 +20,22 @@ var app = new Framework7({
       path: '/inicio/',
       url: 'inicio.html',
     },
+    {
+      path: '/mi-perfil/',
+      url: 'mi-perfil.html',
+    },
+    {
+      path: '/perfil/',
+      url: 'perfil.html',
+    },
+    {
+      path: '/home/',
+      url: 'index.html',
+    },
+    {
+      path: '/comportamientos/',
+      url: 'comportamientos.html',
+    },
   ],
   // ... other parameters
 });

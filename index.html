@@ -12,12 +12,23 @@
   <!-- Path to Framework7 Library CSS -->
   <link rel="stylesheet" href="framework7/css/framework7.min.css">
   <link rel="stylesheet" href="framework7/css/framework7.md.min.css">
+  <link rel="stylesheet" href="css/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
   <!-- Path to your custom app styles-->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <!-- App root element -->
   <div id="app">
+    <div class="panel panel-right">
+      <ul class="menu">
+        <li><a class="link panel-close" href="/inicio/"><i class="fas fa-home"></i><span> Inicio</span></a></li>
+        <li><a class="link panel-close" href="/mi-perfil/"><i class="fas fa-user"></i><span> Mi perfil</span></a></li>
+        <li><a class="link panel-close" href="/comportamientos/"><i class="fas fa-user-graduate"></i><span> Comportamientos</span></a></li>
+        <!--<li><a class="link panel-close" href="/health/"><i class="fas fa-heartbeat"></i><span> Health</span></a></li>-->
+        <li><a class="link panel-close" href="/home/"><i class="fas fa-user-lock"></i><span> Cerrar Sesión</span></a></li>
+      </ul>
+
+    </div>
     <!-- Statusbar overlay -->
     <div class="statusbar"></div>
 
@@ -25,7 +36,7 @@
     <div class="view view-main">
       <!-- Initial Page, "data-name" contains page name -->
       <div data-name="home" class="page">
-
+        
         <div class="navbar">
           <div class="navbar-inner">
             <div class="left">
