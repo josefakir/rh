@@ -23,3 +23,39 @@ h1.nombre {text-align: center;}
 }
 .rating{width: 95px; margin: 20px auto}
 .padding{padding: 10px}
+
+.columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        -webkit-column-fill: auto;
+        -moz-column-fill: auto;
+        column-fill: auto;
+      }
+      .pin {
+        -webkit-column-break-inside: avoid;
+        -moz-column-break-inside: avoid;
+        column-break-inside: avoid;
+        padding-bottom: 1em;
+         -webkit-transition: width 2s; /* Safari */
+          transition: width 2s;
+      }
+      .pin_content {
+        background-color: #ccc;
+        padding: 0.5em;
+      }
+      img.scale {
+        -webkit-transition: all 0.5s ease-in;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        width: 100%
+    }
+
+    img.scale:hover {
+        -moz-transform: scale(1.1); 
+        -webkit-transform: scale(1.1); 
+        -o-transform: scale(1.1); 
+        transform: scale(1.01); 
+    }

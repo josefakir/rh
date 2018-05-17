@@ -36,8 +36,25 @@ var app = new Framework7({
       path: '/comportamientos/',
       url: 'comportamientos.html',
     },
+    {
+      path: '/inicio-masonry/',
+      url: 'inicio-masonry.html',
+    },
   ],
+  on: {
+    // each object key means same name event handler
+    pageInit: function (page) {
+      if(page.name=='inicio-masonry'){
+       
+      }
+      // do something on page init
+    }
+  }
   // ... other parameters
 });
+
+
+
+
 
 var mainView = app.views.create('.view-main');
